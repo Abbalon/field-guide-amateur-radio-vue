@@ -1,0 +1,30 @@
+/* Importa las fuentes que elijas de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Permanent+Marker&display=swap');
+
+/* Estilos de los elementos HTML básicos */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Clases de utilidad */
+.section-title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #3b3a36;
+  padding-bottom: 0.5rem;
+}
+
+.notebook-link {
+  font-family: 'Architects Daughter', cursive;
+  text-decoration: none;
+  font-weight: bold;
+  color: #5d4a31;
+}
+
+ul {
+  list-style: none; /* Elimina los puntos de la lista */
+  padding: 0;
+}
