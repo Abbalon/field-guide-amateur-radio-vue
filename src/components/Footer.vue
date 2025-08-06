@@ -1,12 +1,15 @@
+<!-- src/components/Footer.vue -->
 <template>
   <footer class="notebook-footer">
     <p>— 73s and clear skies, from the field.</p>
-    <div class="author-signature">
-      </div>
+    <div class="author-signature"></div>
   </footer>
 </template>
 
 <script setup lang="ts">
+defineOptions({
+  name: 'NotebookFooter',
+})
 // No se necesita lógica en este componente por ahora.
 </script>
 

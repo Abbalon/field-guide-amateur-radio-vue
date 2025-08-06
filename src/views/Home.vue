@@ -1,28 +1,39 @@
+<!-- src/views/Home.vue -->
 <template>
   <div class="page-content">
     <div class="intro-note">
       <h2 class="section-title">First Entry</h2>
       <p>
-        My fingers are cold, the air is crisp, and the transceiver is humming.
-        This field guide is a chronicle of my journey into the world of amateur
-        radio. Here, you'll find my scribbled notes on antennas, my maps of
-        distant frequencies, and the schematics of my latest projects. Grab your
-        gear, turn the page, and let's explore the airwaves together.
+        My fingers are cold, the air is crisp, and the transceiver is humming. This field guide is a
+        chronicle of my journey into the world of amateur radio. Here, you'll find my scribbled
+        notes on antennas, my maps of distant frequencies, and the schematics of my latest projects.
+        Grab your gear, turn the page, and let's explore the airwaves together.
       </p>
     </div>
 
     <div class="navigation-links">
       <h3 class="section-subtitle">Topics</h3>
       <ul>
-        <li><router-link to="/antennas" class="notebook-link">Antennas: The Art of Reaching Far</router-link></li>
-        <li><router-link to="/equipment" class="notebook-link">Equipment: My Trusty Transceiver</router-link></li>
-        <li><router-link to="/diy" class="notebook-link">DIY Projects: A Solder's Tale</router-link></li>
+        <li>
+          <router-link to="/antennas" class="notebook-link"
+            >Antennas: The Art of Reaching Far</router-link
+          >
+        </li>
+        <li>
+          <router-link to="/equipment" class="notebook-link"
+            >Equipment: My Trusty Transceiver</router-link
+          >
+        </li>
+        <li>
+          <router-link to="/diy" class="notebook-link">DIY Projects: A Solder's Tale</router-link>
+        </li>
       </ul>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+defineOptions({ name: 'HomePage' })
 // No se necesita lógica en este componente por ahora.
 </script>
 

@@ -1,3 +1,4 @@
+<!-- src/components/Header.vue -->
 <template>
   <header class="notebook-header">
     <div class="header-content">
@@ -7,13 +8,13 @@
       <p class="subtitle">Notes from the airwaves and beyond...</p>
     </div>
     <div class="radio-sketch">
-      <svg width="100" height="100" viewBox="0 0 100 100">
-        </svg>
+      <svg width="100" height="100" viewBox="0 0 100 100"></svg>
     </div>
   </header>
 </template>
 
 <script setup lang="ts">
+defineOptions({ name: 'AppHeader' })
 // No se necesita lógica en este componente por ahora.
 </script>
 
