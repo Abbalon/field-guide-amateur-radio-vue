@@ -1,14 +1,11 @@
 {
   "name": "Vue Project - Field Guide of an Amateur Radio",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "remoteUser": "root",
   "postCreateCommand": "npm install",
   "customizations": {
     "vscode": {
-      "extensions": [
-        "Vue.volar",
-        "Vue.vscode-typescript-vue-plugin",
-        "dbaeumer.vscode-eslint"
-      ]
+      "extensions": ["Vue.volar", "Vue.vscode-typescript-vue-plugin", "dbaeumer.vscode-eslint"]
     }
   }
 }
