@@ -4,9 +4,6 @@ import { onMounted, watch } from 'vue'
 
 const props = defineProps<{
   title: string
-  required: true
-  default: 'Field Guide to Amateur Radio'
-  type: string
 }>()
 
 onMounted(() => {
@@ -21,17 +18,8 @@ watch(
 )
 </script>
 
-<!-- src/components/PageTitle.vue -->
 <template>
-  <h1 class="page-title">{{ title }}</h1>
+  <span style="display: none"
+    ><!-- Este componente no renderiza nada en el DOM, solo actualiza el título del documento. --></span
+  >
 </template>
-
-<style scoped>
-.page-title {
-  font-family: 'CharcoalHandwriting', cursive;
-  font-size: 2.5rem;
-  text-align: center;
-  color: #3b3a36;
-  margin: 1.5rem 0;
-}
-</style>

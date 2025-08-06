@@ -1,7 +1,7 @@
 // src/router/index.ts
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import Antennas from '../views/Antennas.vue'
+import Home from '@/views/Home.vue'
+import Antennas from '@/views/Antennas.vue'
 import Regulations from '../views/Regulations.vue'
 import NotFound from '../views/NotFound.vue'
 
