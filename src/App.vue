@@ -1,15 +1,13 @@
 <!-- src/App.vue -->
 <template>
-  <router-link to="/" class="notebook-link">
-    <PageTitle title="Field Guide to Amateur Radio" />
-    <div id="notebook-page">
-      <Header />
-      <main>
-        <router-view></router-view>
-      </main>
-      <Footer />
-    </div>
-  </router-link>
+  <PageTitle title="Field Guide to Amateur Radio" />
+  <div id="notebook-page">
+    <Header />
+    <main>
+      <router-view></router-view>
+    </main>
+    <Footer />
+  </div>
 </template>
 
 <script setup lang="ts">
