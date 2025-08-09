@@ -13,5 +13,6 @@
         "oxc.oxc-vscode"
       ]
     }
-  }
+  },
+  "forwardPorts": [5173]
 }
