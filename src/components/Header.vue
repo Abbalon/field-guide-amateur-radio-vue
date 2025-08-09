@@ -23,6 +23,8 @@ defineOptions({ name: 'AppHeader' })
   text-align: center;
   margin-bottom: 2rem;
   border-bottom: 2px dashed #9d9d9d; /* Borde que parece un desgarro de papel */
+  position: relative; /* Para controlar el apilamiento */
+  z-index: 1; /* Asegura que el header esté por encima del lomo del libro */
 }
 .main-title {
   font-family: 'HandDrawnTitle', serif; /* Fuente más gruesa para el título */

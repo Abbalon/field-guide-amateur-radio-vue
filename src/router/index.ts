@@ -16,6 +16,11 @@ const routes = [
     name: 'Antennas',
     component: Antennas,
   },
+  // {
+  //   path: '/equipment',
+  //   name: 'Equipment',
+  //   component: Equipment,
+  // },
   {
     path: '/regulations',
     name: 'Regulations',
